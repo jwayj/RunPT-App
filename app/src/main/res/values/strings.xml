@@ -43,11 +43,4 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_signup">signup</string>
-    <string name="title_activity_signup1">Signup1</string>
-    <string name="title_activity_signup3">Signup3</string>
-    <string name="title_activity_badge">Badge</string>
 </resources>
