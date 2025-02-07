@@ -16,7 +16,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         //회원가입 버튼
-        sign = findViewById(R.id.signin);
+        sign = findViewById(R.id.signupbutton);
 
         //회원가입 버튼 클릭시, 회원가입 페이지로 이동
         sign.setOnClickListener(v -> {
