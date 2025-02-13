@@ -58,7 +58,7 @@
                 android:id="@+id/badge_image_1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_1"
@@ -80,7 +80,7 @@
                 android:id="@+id/badge_image_2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_2"
@@ -101,7 +101,7 @@
                 android:id="@+id/badge_image_3"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_3"
@@ -121,7 +121,7 @@
                 android:id="@+id/badge_image_4"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_4"
@@ -141,7 +141,7 @@
                 android:id="@+id/badge_image_5"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_5"
@@ -161,7 +161,7 @@
                 android:id="@+id/badge_image_6"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_6"
@@ -181,7 +181,7 @@
                 android:id="@+id/badge_image_7"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_7"
@@ -201,7 +201,7 @@
                 android:id="@+id/badge_image_8"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_8"
@@ -221,7 +221,7 @@
                 android:id="@+id/badge_image_9"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_9"
@@ -241,7 +241,7 @@
                 android:id="@+id/badge_image_10"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_10"
@@ -261,7 +261,7 @@
                 android:id="@+id/badge_image_11"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_11"
@@ -281,7 +281,7 @@
                 android:id="@+id/badge_image_12"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/badgeEx" />
+                app:srcCompat="@drawable/badgeex" />
 
             <TextView
                 android:id="@+id/badge_text_12"

@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Toast;
+import android.content.Intent;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,10 +51,13 @@ public class Signup1 extends AppCompatActivity {
             if (checkTerms.isChecked() &&
                     checkPrivacyPolicy.isChecked() &&
                     checkLocationService.isChecked()) {
-                Toast.makeText(Signup1.this, "모든 약관에 동의하셨습니다.", Toast.LENGTH_SHORT).show();
+                // Create an Intent to start Signup2 activity
+                Intent intent = new Intent(Signup1.this, Signup2.class);
+                startActivity(intent);
             } else {
                 Toast.makeText(Signup1.this, "모든 약관에 동의해주세요.", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }

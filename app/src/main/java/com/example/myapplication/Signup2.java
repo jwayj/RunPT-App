@@ -20,7 +20,7 @@ public class Signup2 extends AppCompatActivity {
         setContentView(R.layout.activity_signup2);
 
         //뒤로 가기 버튼
-        back = findViewById(R.id.back);
+        back = findViewById(R.id.back_button);
         back.setOnClickListener(v -> onBackPressed() );
 
         //기입 항목
@@ -54,7 +54,7 @@ public class Signup2 extends AppCompatActivity {
         //회원가입 완료 버튼
         submit = findViewById(R.id.signupbutton);
         submit.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Login.class);
+            Intent intent = new Intent(this, Signup3.class);
             startActivity(intent);
         });
 
