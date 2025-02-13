@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    private NavController navController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.toolbar);
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
@@ -44,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        // 사용자 로그인 상태 확인
+        if (!isUserLoggedIn()) {
+            navController.navigate(R.id.loginbutton);
+        }
+    }
+
+    private boolean isUserLoggedIn() {
+        // 여기에 사용자 로그인 상태를 확인하는 로직을 구현합니다.
+        // 예: SharedPreferences나 데이터베이스에서 로그인 상태 확인
+        return false; // 예시로 항상 로그인되지 않은 상태로 가정
     }
 
     @Override

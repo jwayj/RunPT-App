@@ -13,7 +13,25 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Signup"
+            android:name=".Badge"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_badge"
+            android:theme="@style/Theme.MyApplication.Fullscreen" />
+        <activity
+            android:name=".Signup3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_signup3"
+            android:theme="@style/Theme.MyApplication.Fullscreen" />
+        <activity
+            android:name=".Signup1"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_signup1"
+            android:theme="@style/Theme.MyApplication.Fullscreen" />
+        <activity
+            android:name=".Signup2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_signup"

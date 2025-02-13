@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class Signup extends AppCompatActivity {
+public class Signup2 extends AppCompatActivity {
     TextView back;
     EditText name,id,pw,pw2,email,birthyear,birthdate,birthday;
     Button pwcheck, submit;
@@ -17,7 +17,7 @@ public class Signup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_signup2);
 
         //뒤로 가기 버튼
         back = findViewById(R.id.back);
@@ -47,7 +47,7 @@ public class Signup extends AppCompatActivity {
             if(pw.getText().toString().equals(pw2.getText().toString())){
                 pwcheck.setText("일치");
             }else{
-                Toast.makeText(Signup.this, "비밀번호가 다릅니다.", Toast.LENGTH_LONG).show();
+                Toast.makeText(Signup2.this, "비밀번호가 다릅니다.", Toast.LENGTH_LONG).show();
             }
         });
 
