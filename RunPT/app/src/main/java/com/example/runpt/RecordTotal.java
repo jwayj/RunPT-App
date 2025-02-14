@@ -45,7 +45,7 @@ public class RecordTotal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // activity_main.xml에 buttonContainer, paginationContainer가 있어야 함
+        setContentView(R.layout.activity_recordtotal); // activity_main.xml에 buttonContainer, paginationContainer가 있어야 함
 
         buttonContainer = findViewById(R.id.buttonContainer);
         paginationContainer = findViewById(R.id.paginationContainer);
@@ -170,7 +170,7 @@ public class RecordTotal extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Log.d("CustomButton", "Clicked record id: " + record.id);
-                    Intent intent = new Intent(RecordTotal.this, SecondActivity.class);
+                    Intent intent = new Intent(RecordTotal.this, RecordDetail.class);
                     intent.putExtra("record_id", record.id);
                     startActivity(intent);
                 }

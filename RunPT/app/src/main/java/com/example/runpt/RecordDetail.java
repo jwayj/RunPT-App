@@ -21,7 +21,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-public class SecondActivity extends AppCompatActivity {
+public class RecordDetail extends AppCompatActivity {
 
     private AppDatabase db;
     private TextView tvTime, tvDistance, tvPace, tvDate;
@@ -31,7 +31,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_recorddetail);
 
         tvTime = findViewById(R.id.tvTime);
         tvDistance = findViewById(R.id.tvDistance);
@@ -91,7 +91,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // SecondActivity로 이동하는 Intent 생성 및 실행
-                Intent intent = new Intent(SecondActivity.this, RecordTotal.class);
+                Intent intent = new Intent(RecordDetail.this, RecordTotal.class);
                 startActivity(intent);
             }
         });
