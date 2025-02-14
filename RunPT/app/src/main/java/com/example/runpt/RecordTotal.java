@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class RecordTotal extends AppCompatActivity {
 
     private AppDatabase db;
     private RecordDataDao recordDataDao;
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                         displayPage(currentPage);
                         // PaginationController를 생성하고 페이지 네비게이션 버튼을 표시
                         paginationController = new PaginationController(
-                                MainActivity.this,
+                                RecordTotal.this,
                                 paginationContainer,
                                 currentPage,
                                 totalPages,
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Log.d("CustomButton", "Clicked record id: " + record.id);
-                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                    Intent intent = new Intent(RecordTotal.this, SecondActivity.class);
                     intent.putExtra("record_id", record.id);
                     startActivity(intent);
                 }

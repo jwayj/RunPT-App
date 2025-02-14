@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.data.AppDatabase;
 import com.example.data.RecordData;
-import com.example.data.RecordDataDao;
+
 import androidx.room.Room;
 import android.util.Log;
 import android.widget.TextView;
@@ -91,7 +91,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // SecondActivity로 이동하는 Intent 생성 및 실행
-                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+                Intent intent = new Intent(SecondActivity.this, RecordTotal.class);
                 startActivity(intent);
             }
         });
