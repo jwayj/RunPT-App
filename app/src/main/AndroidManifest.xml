@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
         <activity
             android:name=".Badge"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -44,6 +51,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".SearchPopup"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.MyApplication"
+            android:windowBackground="@android:color/transparent"
+            android:windowIsTranslucent="true"
+            android:windowSoftInputMode="adjustResize" /> <!-- 앱 실행 시 가장 먼저 열릴 화면을 popup으로 변경 -->
+        <activity
+            android:name=".popup"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" />
 
 
     </application>
