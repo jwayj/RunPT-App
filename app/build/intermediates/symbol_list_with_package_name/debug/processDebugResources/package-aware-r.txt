@@ -3010,9 +3010,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_bg
 drawable ic_arrow_back_black_24
+drawable ic_back
+drawable ic_challenge
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_close
 drawable ic_keyboard_black_24dp
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -3021,6 +3025,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_mypage
+drawable ic_record
+drawable ic_running
 drawable ic_search_black_24
 drawable lightbluebox
 drawable logo
@@ -3036,6 +3043,8 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable map_background
+drawable map_info
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3096,6 +3105,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rectangle
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3175,6 +3185,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address_1
+id address_2
+id address_3
 id alertTitle
 id aligned
 id all
@@ -3226,11 +3239,13 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_bar
 id bottom_navigation_view
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnSearchRoute
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3256,6 +3271,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id close_button
 id closest
 id collapseActionView
 id compress
@@ -3294,6 +3310,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id distanceText
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3309,7 +3326,10 @@ id easeOut
 id east
 id edge
 id ediPassword
+id editDestination
+id editDistance
 id editID
+id editStart
 id edit_query
 id elastic
 id embed
@@ -3325,6 +3345,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finishText
 id fitCenter
 id fitEnd
 id fitStart
@@ -3368,6 +3389,10 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id label_destination
+id label_distance
+id label_incline
+id label_start
 id labeled
 id layout
 id left
@@ -3385,6 +3410,8 @@ id logintext
 id logo
 id ltr
 id m3_side_sheet
+id mapImageView
+id mapInfoBackground
 id marquee
 id masked
 id match_constraint
@@ -3504,6 +3531,10 @@ id progress_circular
 id progress_horizontal
 id pwcheckbutton
 id radio
+id radioGroupIncline
+id radioHigh
+id radioLow
+id radioMedium
 id ratio
 id rectangles
 id report_drawn
@@ -3531,6 +3562,7 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
+id search_input
 id search_mag_icon
 id search_plate
 id search_src_text
@@ -3584,6 +3616,7 @@ id src_over
 id standard
 id start
 id startHorizontal
+id startText
 id startToEnd
 id startVertical
 id staticLayout
@@ -3630,6 +3663,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id top_bar
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3779,6 +3813,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_badge
 layout activity_login
+layout activity_map
+layout activity_popup
+layout activity_search_popup
 layout activity_signup1
 layout activity_signup2
 layout activity_signup3
@@ -4038,6 +4075,10 @@ string side_sheet_behavior
 string status_bar_notification_info_overflow
 string title_activity_badge
 string title_activity_fullscreen
+string title_activity_main
+string title_activity_map
+string title_activity_popup
+string title_activity_search_popup
 string title_activity_signup
 string title_activity_signup1
 string title_activity_signup3

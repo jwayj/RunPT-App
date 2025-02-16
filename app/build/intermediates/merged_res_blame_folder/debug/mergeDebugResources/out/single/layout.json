@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_signup2.xml",
-        "source": "com.example.myapplication.app-main-45:/layout/activity_signup2.xml"
-    },
-    {
         "merged": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-mergeDebugResources-42:\\layout\\activity_signup1.xml",
         "source": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-45:\\layout\\activity_signup1.xml"
     },
@@ -16,20 +12,20 @@
         "source": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-45:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_signup1.xml",
-        "source": "com.example.myapplication.app-main-45:/layout/activity_signup1.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_search_popup.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_search_popup.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_popup.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_popup.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_map.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_map.xml"
     },
     {
         "merged": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-mergeDebugResources-42:\\layout\\activity_signup2.xml",
         "source": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-main-45:\\layout\\activity_signup2.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_signup3.xml",
-        "source": "com.example.myapplication.app-main-45:/layout/activity_signup3.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_login.xml",
-        "source": "com.example.myapplication.app-main-45:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\jwayeonjoo\\.gradle\\daemon\\8.10.2\\com.example.myapplication.app-mergeDebugResources-42:\\layout\\activity_badge.xml",
