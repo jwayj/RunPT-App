@@ -39,25 +39,25 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_badge"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".Signup3"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_signup3"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".Signup1"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_signup1"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".Signup2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_signup"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".Login"
             android:exported="true">
