@@ -72,7 +72,7 @@ public class popup extends AppCompatActivity {
 
     public void onSearchRouteClicked(View view) {
         // MapActivity로 이동하는 Intent
-        Intent intent = new Intent(popup.this, MapActivity.class);
+        Intent intent = new Intent(popup.this, Map.class);
         startActivity(intent);  // MapActivity로 전환
     }
 

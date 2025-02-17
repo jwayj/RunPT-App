@@ -56,6 +56,10 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_badge">Badge</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_map">map</string>
+    <string name="title_activity_popup">popup</string>
+    <string name="title_activity_search_popup">SearchPopup</string>
     <string name="title_activity_signup">signup</string>
     <string name="title_activity_signup1">Signup1</string>
     <string name="title_activity_signup3">Signup3</string>

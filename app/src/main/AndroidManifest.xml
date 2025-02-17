@@ -11,48 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
-        tools:targetApi="31"
-        tools:replace="android:allowBackup">
+        tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Badge"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_badge"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
-        <activity
-            android:name=".Signup3"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_signup3"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
-        <activity
-            android:name=".Signup1"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_signup1"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
-        <activity
-            android:name=".Signup2"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_signup"
-            android:theme="@style/Theme.MyApplication.Fullscreen" />
-        <activity
-            android:name=".Login"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MapActivity"
+            android:name=".Map"
             android:exported="false"
             android:theme="@style/Theme.MyApplication" />
         <activity
@@ -62,16 +23,56 @@
             android:theme="@style/Theme.MyApplication"
             android:windowBackground="@android:color/transparent"
             android:windowIsTranslucent="true"
-            android:windowSoftInputMode="adjustResize" /> <!-- 앱 실행 시 가장 먼저 열릴 화면을 popup으로 변경 -->
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".popup"
             android:exported="true"
-            android:theme="@style/Theme.MyApplication"/>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MyApplication" />
+            android:theme="@style/Theme.MyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Badge"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_badge"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Signup3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_signup3"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Signup1"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_signup1"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Signup2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecordDetail"
+            android:exported="false" />
+        <activity
+            android:name=".RecordTotal"
+            android:exported="true"/>
 
     </application>
 

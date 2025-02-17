@@ -28,6 +28,28 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.example.myapplication.Map"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name="com.example.myapplication.SearchPopup"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.MyApplication"
+            android:windowBackground="@android:color/transparent"
+            android:windowIsTranslucent="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.myapplication.popup"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.myapplication.Badge"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
