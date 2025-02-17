@@ -67,6 +67,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RecordDetail"
+            android:exported="false" />
+        <activity
+            android:name=".RecordTotal"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
