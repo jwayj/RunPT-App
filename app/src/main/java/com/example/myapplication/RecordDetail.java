@@ -11,9 +11,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.myapplication.AppDatabase;
-import com.example.myapplication.RecordData;
-
 import androidx.room.Room;
 import android.util.Log;
 import android.widget.TextView;
@@ -91,7 +88,7 @@ public class RecordDetail extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // SecondActivity로 이동하는 Intent 생성 및 실행
-                Intent intent = new Intent(RecordDetail.this, RecordTotal.class);
+                Intent intent = new Intent(RecordDetail.this, RecordFragment.class);
                 startActivity(intent);
             }
         });

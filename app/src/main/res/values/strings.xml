@@ -54,4 +54,6 @@
     <string name="title_activity_search_popup">SearchPopup</string>
     <string name="title_activity_popup">popup</string>
     <string name="title_activity_main">Main</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
