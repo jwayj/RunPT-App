@@ -1,7 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id("com.android.application") version "8.1.0" // Android Gradle Plugin 버전
-    id("org.jetbrains.kotlin.android") version "1.9.10" // Kotlin 플러그인 버전
 }
 
 
@@ -10,6 +9,13 @@ plugins {
 android {
     namespace = "com.example.myapplication"
     compileSdk = 35
+
+    // sourceSets 수정
+    sourceSets {
+        getByName("main") {
+            manifest.srcFile("app/src/main/AndroidManifest.xml")
+        }
+    }
 
     defaultConfig {
         applicationId = "com.example.myapplication"

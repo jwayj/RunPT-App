@@ -5,12 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
+
 
 public class Main extends FragmentActivity {
 
@@ -18,10 +13,21 @@ public class Main extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        System.out.println(savedInstanceState);
         if (savedInstanceState == null) {
+            // 인텐트에서 openFragment 값을 확인
+            String openFragment = getIntent().getStringExtra("openFragment");
+            Fragment fragmentToShow;
+
+            if ("running".equals(openFragment)) {
+                fragmentToShow = new RunningFragment();
+            } else {
+                // 기본값으로 RunningFragment를 사용하거나 다른 프래그먼트를 선택할 수 있습니다.
+                fragmentToShow = new RunningFragment();
+            }
+
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, new RunningFragment())
+                    .replace(R.id.fragment_container, fragmentToShow)
                     .commit();
         }
 

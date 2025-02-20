@@ -50,6 +50,7 @@ public class RunningFragment extends Fragment implements OnMapReadyCallback {
             // 시작 버튼 클릭 시 팝업창으로 이동
             Intent intent = new Intent(requireContext(), popup.class);
             startActivity(intent);
+
         });
 
     }

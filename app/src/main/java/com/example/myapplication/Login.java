@@ -24,9 +24,12 @@ public class Login extends AppCompatActivity {
         // 로그인 버튼
         loginButton = findViewById(R.id.loginbutton);
         loginButton.setOnClickListener(v -> {
+            System.out.println("login");
             // 로그인 버튼 클릭 시 MainActivity로 이동
             Intent intent = new Intent(this, Main.class);
+            intent.putExtra("openFragment", "running");
             startActivity(intent);
+            finish();
         });
 
 
